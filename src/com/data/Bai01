@@ -1,0 +1,36 @@
+
+Đề Bài:
+1. Tính đóng gói là gì? Tại sao tính đóng gói lại quan trọng trong lập trình đối tượng?
+2. Làm thế nào để áp dụng tính đóng gói trong Java? Giải thích cách sử dụng các phương thức getter và setter.
+3. Cho ví dụ về cách sử dụng tính đóng gói trong một lớp có thuộc tính name, age (thuộc tính private), và phương thức getter và setter để truy xuất và thay đổi giá trị của chúng.
+4. Lợi ích của việc sử dụng tính đóng gói trong việc bảo vệ dữ liệu và kiểm soát quyền truy cập là gì?
+
+Bài Làm :
+1. Tính đóng gói là gì?
+    Đóng gói (Encapsulation) là một trong bốn tính chất quan trọng của lập trình hướng đối tượng, cho phép ẩn giấu thông tin và bảo vệ dữ liệu bên trong đối tượng.
+
+    Dữ liệu (thuộc tính) của một đối tượng được ẩn đi và chỉ có thể truy cập thông qua các phương thức công khai (public) được cung cấp bởi đối tượng đó.
+
+    Lập trình viên kiểm soát cách dữ liệu được truy cập hoặc thay đổi, tránh việc các phần khác của chương trình tác động trực tiếp và sai cách đến dữ liệu nội bộ.
+
+2. Tại sao tính đóng gói lại quan trọng trong lập trình đối tượng?
+    Bảo vệ dữ liệu: Chỉ cho phép truy cập dữ liệu theo cách định nghĩa trước, tránh thay đổi bất hợp lệ.
+
+    Dễ bảo trì: Khi logic thay đổi, chỉ cần thay đổi bên trong lớp, không ảnh hưởng đến các phần còn lại.
+
+    Tăng tính tái sử dụng: Một lớp đóng gói tốt dễ dàng tái sử dụng trong các chương trình khác.
+
+    Kiểm soát quyền truy cập: Bạn có thể cho phép hoặc từ chối truy cập từng thuộc tính một cách linh hoạt.
+
+3. Cách áp dụng tính đóng gói trong Java – sử dụng getter và setter
+    Bước 1: Khai báo các thuộc tính là private.
+
+    Bước 2: Tạo các getter (lấy giá trị) và setter (gán giá trị) là public.
+4. Lợi ích của đóng gói trong bảo vệ dữ liệu và kiểm soát truy cập
+    Ẩn dữ liệu nội bộ: Giúp ngăn người dùng hoặc đoạn mã khác can thiệp trực tiếp vào dữ liệu.
+
+    Kiểm soát giá trị hợp lệ: Qua setter, bạn có thể kiểm tra giá trị đầu vào, ví dụ không cho phép age < 0.
+
+    Thay đổi linh hoạt: Bạn có thể thay đổi cách xử lý trong getter/setter mà không ảnh hưởng đến bên ngoài.
+
+    Dễ bảo trì và mở rộng: Việc sửa hoặc nâng cấp chương trình trở nên dễ dàng và an toàn hơn.
