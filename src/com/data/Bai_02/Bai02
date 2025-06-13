@@ -1,0 +1,16 @@
+1. Kế thừa là gì? Nó giúp ích gì trong lập trình hướng đối tượng?
+Kế thừa (Inheritance) là một tính chất của lập trình hướng đối tượng (OOP) cho phép một lớp (class) con kế thừa lại các thuộc tính (fields) và phương thức (methods) từ một lớp cha (superclass).
+
+Lợi ích của kế thừa:
+Tái sử dụng mã (code reuse): Không cần viết lại các thuộc tính hoặc phương thức đã có ở lớp cha.
+
+Dễ bảo trì và mở rộng: Khi thay đổi trong lớp cha, các lớp con cũng được cập nhật.
+
+Tăng tính tổ chức: Dễ quản lý và sắp xếp các đối tượng theo hệ thống phân cấp.
+
+2. Sự khác biệt giữa kế thừa và đóng gói (encapsulation) trong Java là gì?
+Tiêu chí	Kế thừa (Inheritance)	Đóng gói (Encapsulation)
+Mục đích	Tái sử dụng mã và mở rộng chức năng	Bảo vệ dữ liệu và kiểm soát truy cập
+Từ khóa sử dụng	extends	private, protected, public, getter/setter
+Liên quan đến	Mối quan hệ giữa lớp cha và lớp con	Quy tắc truy cập dữ liệu nội bộ của một lớp
+Tính năng chính	Cho phép lớp con dùng lại code từ lớp cha	Che giấu chi tiết bên trong lớp, chỉ cung cấp giao diện
